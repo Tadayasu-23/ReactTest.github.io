@@ -1,0 +1,316 @@
+body {
+  background-color: gray;
+}
+
+nav {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+button {
+  border: 0 solid black;
+  background-color: black;
+  color: orange;
+}
+
+form {
+  width: 500px;
+  margin: 30px;
+}
+
+.maps {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  border: 0;
+  box-shadow: 2px 1px 10px black;
+}
+
+ul {
+  position: absolute;
+  top: 10px;
+  right: 2%;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+label {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+select {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-left: 20px;
+  font-size: 18px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.cars {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.car {
+  border: 1px solid black;
+  border-radius: 10px;
+  flex-basis: 25%;
+  opacity: 66%;
+  padding: 10px;
+}
+
+.car:hover {
+  opacity: 100%;
+}
+
+.carImg {
+  height: 100px;
+}
+
+.call {
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  margin: 30px 40px 15px;
+  width: 80%;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.profile {
+  width: 890px;
+  height: 75vh;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px black;
+  border: 0px solid black;
+  padding: 30px;
+  margin: 50px auto;
+}
+
+.description {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.zagolovok {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.zagDesc {
+  font-size: 24px;
+}
+
+.block {
+  margin-bottom: 50px;
+  display: flex;
+  flex: 1/2;
+}
+
+.leftBlock {
+  width: 50%;
+}
+
+.rightBlock {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 30px;
+  height: 200px;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 15px;
+  padding: 20px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.cvcCopy {
+  display: inline-block;
+  text-align: right;
+  height: 30px;
+  align-content: center;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  position: absolute;
+  top: 25px;
+  right :40px;
+}
+
+.cardCopy {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.square {
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.save {
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  margin: 30px 80px 15px;
+  width: 80%;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.cardForm {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.cardFormBottom {
+
+}
+
+.bottomInput {
+  display: inline-block;
+  width: 200px;
+  box-sizing: border-box;
+  margin-right: 5px;
+  overline: 
+}
+
+.container {
+  display: inline-block;
+  float: right;
+  width: 67%;
+}
+
+.loginContainer {
+  width: 650px;
+  height: 650px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px black;
+  margin: 100px 23% 0;
+  display: inline-block;
+}
+
+.loginForm {
+  margin: 0 auto;
+  padding-top: 75px;
+  width: 66%;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.loginBorder {
+  border: 0;
+}
+
+.loginInput {
+  border: 0;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 60px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+.loginButton {
+  font-size: 30px;
+  font-weight: 500;
+  width: 100%;
+  margin-left: 0;
+  border-radius: 40px;
+  margin-top: 100px;
+}
+
+.logo {
+  background-color: black;
+  height: 95vh;
+  min-width: 100px;
+  display: inline-block;
+  width: 33%;
+  font-size: 60px;
+  color: orange;
+  position: relative;
+  top: 0px;
+  float: left;
+
+}
+
+.Registration {
+  display: none;
+  height: 750px;
+}
+
+.logoTaxi {
+  margin-top: 35vh;
+  text-align: center;
+}
+
+.bottomText {
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bottomText > a {
+  margin-left: 10px;
+}
+
+.ButtonOn {
+  border: 0;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 18px;
+}
+
+.firstName, .lastName {
+  width: 47.5%;
+}
+
+.lastName {
+  margin-left: 10px;
+}
